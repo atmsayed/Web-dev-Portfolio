@@ -17,6 +17,23 @@ body {
     font-weight: 700;
 }
 
+.sec-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.sec-p {
+    width: 827px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -62,4 +79,185 @@ nav a {
 .pro-pic {
     width: 500px;
     height: 600px;
+}
+
+/* main section style */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* about section style */
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin: 130px 0px;
+}
+
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+
+}
+
+.about-info {}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+
+    font-size: 15px;
+
+}
+
+/* what I do style */
+#what-I-do-description {
+    padding: 30px 150px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.skils-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skils {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skil-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.skil-description {
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+/* summary section styles */
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+    margin-top: 113px;
+}
+
+.resume-title {
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+.degre-title {
+    color: #474747;
+
+    font-size: 25px;
+
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+
+.degree-inst {
+    color: #757575;
+
+    font-size: 20px;
+
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.degree-desc {
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-top: 0px;
+
+}
+
+.down-Cv {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer styles */
+footer {
+    padding: 130px 230px;
+    margin-top: 113px;
+    background: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+
+    gap: 117px;
+}
+
+.footer-title {
+
+    color: #181818;
+
+    font-size: 35px;
+
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.footer-desc {
+    color: #474747;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="email"],
+textarea {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    padding: 18px 35px;
+    width: 75%;
+
 }
